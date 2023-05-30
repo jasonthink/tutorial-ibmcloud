@@ -12,7 +12,7 @@ provider "ibm" {
 }
 
 data "ibm_resource_group" "default_group" {
-  name = "default"
+  name = "dteroks"
 }
 
 resource "ibm_cloudant" "cloudant" {
